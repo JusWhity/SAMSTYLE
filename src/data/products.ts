@@ -1,8 +1,14 @@
 import { Product } from '../types';
 
-const blackHoodieImg = '/src/assets/images/hoodie_black_clean_1793244839219.jpg';
-const creamHoodieImg = '/src/assets/images/hoodie_cream_clean_1793244853864.jpg';
-const charcoalHoodieImg = '/src/assets/images/hoodie_charcoal_clean_1793244867317.jpg';
+const getAssetUrl = (path: string) => {
+  const base = (import.meta as any)?.env?.BASE_URL || './';
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  return `${cleanBase}${path.replace(/^\.?\//, '')}`;
+};
+
+const blackHoodieImg = getAssetUrl('src/assets/images/hoodie_black_clean_1793244839219.jpg');
+const creamHoodieImg = getAssetUrl('src/assets/images/hoodie_cream_clean_1793244853864.jpg');
+const charcoalHoodieImg = getAssetUrl('src/assets/images/hoodie_charcoal_clean_1793244867317.jpg');
 
 export const PRODUCTS: Product[] = [
   {
