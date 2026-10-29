@@ -1,0 +1,172 @@
+{
+  "settings": {
+    "announcement": {
+      "enabled": true,
+      "text": "ارسال رایگان برای خریدهای بالای ۱،۵۰۰،۰۰۰ تومان | کالکشن جدید پاییزه سام‌استایل آماده تحویل است",
+      "link": "#shop"
+    },
+    "kavenegar": {
+      "apiKey": "",
+      "template": "verify"
+    },
+    "aqayepardakht": {
+      "pin": "sandbox",
+      "isSandbox": true
+    },
+    "admin": {
+      "username": "admin",
+      "password": "samstyle1404",
+      "phone": "09121112233"
+    }
+  },
+  "products": [
+    {
+      "id": "sam-01-black-hoodie",
+      "name": "هودی مشکی بیسیک",
+      "category": "hoodies",
+      "priceToman": 1850000,
+      "colors": [
+        {
+          "name": "مشکی",
+          "hex": "#111111",
+          "image": "/src/assets/images/hoodie_black_clean_1793244839219.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی مینیمال پنبه‌ای با قواره آزاد و دوخت تمیز."
+    },
+    {
+      "id": "sam-02-cream-hoodie",
+      "name": "هودی کرم استخوانی",
+      "category": "hoodies",
+      "priceToman": 1850000,
+      "colors": [
+        {
+          "name": "کرم استخوانی",
+          "hex": "#EBE7DD",
+          "image": "/src/assets/images/hoodie_cream_clean_1793244853864.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی پارچه فلیس نرم با رنگ استخوانی و تن‌خور استاندارد."
+    },
+    {
+      "id": "sam-03-charcoal-hoodie",
+      "name": "هودی زغالی اسیدواش",
+      "category": "hoodies",
+      "priceToman": 1950000,
+      "colors": [
+        {
+          "name": "زغالی",
+          "hex": "#2e2e2e",
+          "image": "/src/assets/images/hoodie_charcoal_clean_1793244867317.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی شستشوی سنگشور وینتیج با آستین آزاد."
+    },
+    {
+      "id": "sam-04-heavy-hoodie",
+      "name": "هودی هوی‌ویت ۴۵۰ گرم",
+      "category": "hoodies",
+      "priceToman": 2250000,
+      "colors": [
+        {
+          "name": "مشکی خالص",
+          "hex": "#0a0a0a",
+          "image": "/src/assets/images/hoodie_black_clean_1793244839219.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی سنگین ۴۵۰ گرم دورس سه نخ تو کرکی."
+    },
+    {
+      "id": "sam-05-boxy-cream",
+      "name": "هودی باکسی استخوانی",
+      "category": "hoodies",
+      "priceToman": 1950000,
+      "colors": [
+        {
+          "name": "استخوانی",
+          "hex": "#EBE7DD",
+          "image": "/src/assets/images/hoodie_cream_clean_1793244853864.jpg"
+        }
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی کات باکسی بدون بند کلاه و مینیمال."
+    },
+    {
+      "id": "sam-06-vintage-charcoal",
+      "name": "هودی وینتیج واش",
+      "category": "hoodies",
+      "priceToman": 2150000,
+      "colors": [
+        {
+          "name": "دودی مات",
+          "hex": "#333333",
+          "image": "/src/assets/images/hoodie_charcoal_clean_1793244867317.jpg"
+        }
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL"
+      ],
+      "description": "هودی وینتیج با پارچه پریمیوم و افکت فرسوده ملایم."
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "SAM-37064",
+      "transid": "ELOJN",
+      "paymentStatus": "pending",
+      "fullName": "سامان راد",
+      "mobile": "09123456789",
+      "city": "تهران",
+      "address": "خیابان ولیعصر، بالاتر از پارک وی، پلاک ۱۲",
+      "amount": 1850000,
+      "itemCount": 1,
+      "items": [
+        {
+          "title": "هودی کلاه‌دار ساده کرم",
+          "size": "L",
+          "color": "کرم استخوانی",
+          "quantity": 1,
+          "price": 1850000
+        }
+      ],
+      "createdAt": "2026-10-26T19:00:02.179Z"
+    }
+  ],
+  "users": {
+    "09351234567": {
+      "phone": "09351234567",
+      "fullName": "",
+      "createdAt": "2026-10-26T18:59:07.060Z"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AKVRIX — Minimal Streetwear & Aqayepardakht Gateway",
+  "description": "Architectural minimal streetwear shop inspired by AKVRIX with integrated Aqayepardakht payment gateway, live search, favourites, and dark/light mode.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
